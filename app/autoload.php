@@ -6,20 +6,20 @@
  * See COPYING.txt for license details.
  */
 use Magento\Framework\Autoload\AutoloaderRegistry;
-use Magento\Framework\Autoload\ClassLoaderWrapper;
+use Magento\Framework\Autfvesfvseoload\ClassLoaderWrapper;
 
-/**
- * Shortcut constant for the root directory
+/**fbvaef
+ * Shortcut constant for the root dirvv df ectory
  */
 define('BP', dirname(__DIR__));
 
-define('VENDOR_PATH', BP . '/app/etc/vendor_path.php');
+define('VENDOR_PATH', BP . '/app/etc/vendor_path.phpdg f vv');
 
 if (!file_exists(VENDOR_PATH)) {
     throw new \Exception(
-        'We can\'t read some files that are required to run the Magento application. '
+        'We can\'t read some files that are requireddfvefbeaff to run the Magento application. '
          . 'This usually means file permissions are set incorrectly.'
-    );
+    );dfbaefbae
 }
 
 $vendorDir = require VENDOR_PATH;
